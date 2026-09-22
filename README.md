@@ -1,14 +1,14 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1500&color=8B949E&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Seek;Founder+%26+CEO+%40+Zyrodev;Ex-TA%2C+Mathematics+%2B+ML+Foundations%2C+IIT+Madras)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1500&color=8B949E&center=true&vCenter=true&width=700&height=40&lines=Software+Engineer+%40+Seek;Founder+%26+CEO+%40+Zyrodev;Ex-TA+%40+IIT+Madras)](https://git.io/typing-svg)
 
 </div>
 
 I move between building production software and building the company that builds it. Right now that's an internship on Seek's LLM platform team, and running Zyrodev, the agency I started about a year ago — thirteen-plus shipped client sites and apps and counting. Before that I was TA-ing Mathematics for Data Science and Machine Learning Foundations at IIT Madras, which is probably why I still can't look at a model without wanting to check the math under it first.
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&width=1000" width="100%"/>
 
-### `right now`
+![](https://img.shields.io/badge/-currently-58A6FF?style=flat-square)
 
 | | |
 |---|---|
@@ -16,9 +16,9 @@ I move between building production software and building the company that builds
 | **Zyrodev** | Founder & CEO — web & mobile products for clients |
 | **IIT Madras** | B.S. in Data Science & Applications |
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&width=1000" width="100%"/>
 
-### `tech stack`
+![](https://img.shields.io/badge/-tech%20stack-58A6FF?style=flat-square)
 
 **Languages** &nbsp; ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
@@ -30,9 +30,9 @@ I move between building production software and building the company that builds
 
 **Infra** &nbsp; ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white) ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&width=1000" width="100%"/>
 
-### `stats`
+![](https://img.shields.io/badge/-stats-58A6FF?style=flat-square)
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=23f3004032&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
@@ -42,9 +42,9 @@ I move between building production software and building the company that builds
   <img src="https://streak-stats.demolab.com?user=23f3004032&theme=tokyonight&hide_border=true&background=0D1117" />
 </p>
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&width=1000" width="100%"/>
 
-### `featured work`
+![](https://img.shields.io/badge/-featured%20work-58A6FF?style=flat-square)
 
 **Product & client work**
 
@@ -66,16 +66,14 @@ I move between building production software and building the company that builds
 | [bank-customer-churn-prediction](https://github.com/23f3004032/bank-customer-churn-prediction) | Threshold tuning mattered more than model choice here |
 | [Live-Selfie-Human-Check](https://github.com/23f3004032/Live-Selfie-Human-Check) | Face-identity verification off a live webcam capture |
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&width=1000" width="100%"/>
 
-### `recent activity`
+![](https://img.shields.io/badge/-recent%20activity-58A6FF?style=flat-square)
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
-<br>
-
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&width=1000" width="100%"/>
 
 Away from a keyboard: swimming, running, singing, occasionally bad poetry.
 

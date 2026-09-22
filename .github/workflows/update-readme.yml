@@ -13,8 +13,69 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+
+      - name: Build activity section
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          FILTER_EVENTS: 'PushEvent,PullRequestEvent,IssuesEvent,ReleaseEvent,CreateEvent'
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PYEOF'
+          import json
+          import os
+          import re
+          import urllib.request
+
+          token = os.environ["GH_TOKEN"]
+          req = urllib.request.Request(
+              "https://api.github.com/users/23f3004032/events/public?per_page=100",
+              headers={
+                  "Authorization": f"token {token}",
+                  "User-Agent": "profile-readme-bot",
+                  "Accept": "application/vnd.github+json",
+              },
+          )
+          with urllib.request.urlopen(req) as resp:
+              events = json.load(resp)
+
+          seen = set()
+          lines = []
+          for e in events:
+              if e["type"] not in ("PushEvent", "CreateEvent"):
+                  continue
+              repo = e["repo"]["name"]
+              if repo in seen:
+                  continue
+              seen.add(repo)
+              name = repo.split("/")[-1]
+              if e["type"] == "PushEvent":
+                  n = len(e.get("payload", {}).get("commits", []))
+                  verb = f"Pushed {n} commit{'s' if n != 1 else ''} to"
+              else:
+                  verb = "Started"
+              lines.append(f"- {verb} [`{name}`](https://github.com/{repo})")
+              if len(lines) == 5:
+                  break
+
+          block = "\n".join(lines) if lines else "- Nothing new recently — check the featured work above."
+
+          with open("README.md", encoding="utf-8") as f:
+              content = f.read()
+
+          new_content = re.sub(
+              r"<!--START_SECTION:activity-->.*?<!--END_SECTION:activity-->",
+              f"<!--START_SECTION:activity-->\n{block}\n<!--END_SECTION:activity-->",
+              content,
+              flags=re.S,
+          )
+
+          if new_content != content:
+              with open("README.md", "w", encoding="utf-8") as f:
+                  f.write(new_content)
+          PYEOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update recent activity"
+          git push
