@@ -46,11 +46,7 @@ jobs:
                   continue
               seen.add(repo)
               name = repo.split("/")[-1]
-              if e["type"] == "PushEvent":
-                  n = len(e.get("payload", {}).get("commits", []))
-                  verb = f"Pushed {n} commit{'s' if n != 1 else ''} to"
-              else:
-                  verb = "Started"
+              verb = "Pushed to" if e["type"] == "PushEvent" else "Started"
               lines.append(f"- {verb} [`{name}`](https://github.com/{repo})")
               if len(lines) == 5:
                   break
