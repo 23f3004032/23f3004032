@@ -68,18 +68,6 @@ I move between building production software and building the company that builds
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&width=1000" width="100%"/>
 
-![](https://img.shields.io/badge/-recent%20activity-58A6FF?style=flat-square)
-
-<!--START_SECTION:activity-->
-- Pushed to [`23f3004032`](https://github.com/23f3004032/23f3004032)
-- Pushed to [`Auto-on-render`](https://github.com/23f3004032/Auto-on-render)
-- Pushed to [`Zyrodev-Website`](https://github.com/23f3004032/Zyrodev-Website)
-- Pushed to [`CP-Indstries`](https://github.com/23f3004032/CP-Indstries)
-- Pushed to [`MAD-2-Vehicle-Parking-App`](https://github.com/23f3004032/MAD-2-Vehicle-Parking-App)
-<!--END_SECTION:activity-->
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&width=1000" width="100%"/>
-
 Away from a keyboard: swimming, running, singing, occasionally bad poetry.
 
 <div align="center">
